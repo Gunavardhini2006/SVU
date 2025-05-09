@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>SVU Campus Map</title>
+  <style>
+    body {
+      background: linear-gradient(to top right, #f2f7f9, #e0e0f0);
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      color: #333;
+    }
+
+    .container {
+      width: 90%;
+      max-width: 1000px;
+      margin: 40px auto;
+      padding: 25px;
+      background: #fff;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      border-radius: 16px;
+      text-align: center;
+    }
+
+    .head h1 {
+      font-size: 40px;
+      color: #4b0082;
+      margin-bottom: 8px;
+    }
+
+    .logo {
+      height: 75px;
+      width: 85px;
+      vertical-align: middle;
+      margin-right: 15px;
+    }
+
+    .subhead {
+      color: #003366;
+      font-size: 28px;
+      margin-top: 10px;
+      font-weight: bold;
+      text-transform: uppercase;
+      margin-bottom: 25px;
+    }
+
+    .map-container {
+      margin: 20px 0;
+    }
+
+    .map-container img {
+      width: 100%;
+      max-width: 100%;
+      height: auto;
+      border-radius: 12px;
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <div class="head">
+      <h1>
+        <img src="C:\Users\HP\Downloads\svulogo.png" class="logo" alt="SVU Logo">
+        Sri Venkateswara University
+      </h1>
+    </div>
+
+    <div class="subhead">Campus Interactive Map</div>
+
+    <div class="map-container">
+      <img src="C:\Users\HP\Downloads\SVUarielview.png" alt="SVU Campus Map" usemap="#svuMap">
+
+      <map name="svuMap">
+        <!-- Admin Block -->
+        <area shape="rect" coords="460,220,607,274" href="D:\Coding Club tasks\ADbuilding.html" alt="Admin Block">
+
+        <!-- Srinivasa Auditorium -->
+        <area shape="rect" coords="687,172,782,258" href="D:\Coding Club tasks\auditorium.html" alt="Srinivasa Auditorium">
+
+        <!-- Central Library -->
+        <area shape="rect" coords="912,167,1148,229" href="D:\Coding Club tasks\library.html" alt="Central Library">
+
+        <!-- SVUCE -->
+        <area shape="rect" coords="283,404,514,268" href="https://svuce.edu.in/" alt="SVU College of Engineering">
+      </map>
+    </div>
+  </div>
+
+</body>
+</html>
